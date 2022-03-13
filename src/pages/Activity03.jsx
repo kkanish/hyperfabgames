@@ -118,10 +118,10 @@ class Apps extends React.Component {
 
 
 function runApps() {
-  ReactDOM.render(
-    <Apps />,
-    rootElement
-  )
+//   ReactDOM.render(
+//     <Apps />,
+//     rootElement
+//   )
 }
   
 runApps();
@@ -272,64 +272,10 @@ runApps();
                 </div>                    
             </section>
             <div id="gameSpinner" name="gameSpinner"></div>
+            
             <section className="tf-activity s1 tf-section">
                 <div className="themesflat-container">
-                    <div className="row">
-                        <div className="col-lg-8 col-md-8 col-12">
-                            {
-                                dataBox.slice(0,visible).map((item,index) =>(
-                                    <div className="sc-card-activity style1" key={index}>
-                                        <div className="content">
-                                            <div className="media">
-                                                <img src={item.img} alt="Axies" />
-                                            </div>
-                                            <div className="infor">
-                                                <h3> <Link to="/item-details-01">{item.title}</Link></h3>
-                                                <div className="status">{item.status} <span className="author">{item.author}</span></div>
-                                                <div className="time">{item.time}</div>
-                                            </div>
-                                        </div>
-                                        <div className={`button-active icon ${item.icon}`}></div>
-                                    </div>
-                                ))
-                            }
-                            {
-                                visible < dataBox.length && 
-                                <div className="col-md-12 wrap-inner load-more text-center"> 
-                                    <Link to="#" id="load-more" className="sc-button loadmore fl-button pri-3 mt-10" onClick={showMoreItems}><span>Load More</span></Link>
-                                </div>
-                            }
-                        </div>
-                        <div className="col-lg-4 col-md-4 col-12">
-
-                            <div id="side-bar" className="side-bar style-2">
-
-                                <div className="widget widget-search mgbt-24">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your word art" required />
-                                        <button><i className="icon-fl-search-filled"></i></button>
-                                    </form>
-                                </div>
-
-                                <div className="widget widget-filter style-2 mgbt-0">
-                                    <h3 className="title-widget">Filter</h3>
-                                    <ul className="box-check">
-                                        {
-                                            dataFilter.map((item,index) => (
-                                                <li key={index}><Link to="#" className="box-widget-filter"><i className={item.icon}></i>{item.name}</Link></li>
-                                            ))
-                                        }
-                                        
-                                    </ul>
-                                    <Link to="#" className="clear-check btn-filter style-2">
-                                        Clear All Filters
-                                    </Link>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
+                <Apps />
                 </div>
             </section>
             <Footer />

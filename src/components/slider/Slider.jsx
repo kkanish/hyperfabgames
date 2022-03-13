@@ -77,7 +77,6 @@ const SliderItem = props => (
                                 </div>
                                 <div className="image">
                                     <img className="img-bg" src={props.item.imgbg} alt="axies" />
-                                    <img src={props.item.img} alt="axies" />
                                 </div>
                             </div>   
                         </div>					                           

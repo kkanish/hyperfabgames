@@ -1536,11 +1536,16 @@ header{
 .main-logo h2 {
     float: left;
 }
+.main-logo {
+    font-size: 25px;
+}
 .logo-dark {
     display: none;
+    color:white;
 }
 .logo-light {
     display: block;
+    color:white;
 }
 .is_dark .logo-dark {
     display: block;
@@ -3375,16 +3380,17 @@ h1 span {
 
 * { box-sizing: border-box; }
 
+
 .spinner-container {
-  overflow: hidden;
-  height: 632px;  
-  padding: 2em;
-  transform: translate(-50%, -50%) scale(.62, .62);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: flex;
-  transition: 0.3s transform;
+    overflow: hidden;
+    /* height: 632px; */
+    padding: 2em;
+    transform: translate(-50%, -30%) scale(.62, .62);
+    position: relative;
+    /*top: 110; */
+    left: 50%;
+    display: inline-flex;
+    transition: 0.3s transform;
 }
 
 .app-wrap.winner-false {
