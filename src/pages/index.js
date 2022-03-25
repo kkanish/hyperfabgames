@@ -16,6 +16,8 @@ import ItemDetails02 from "./ItemDetails02";
 import Activity01 from "./Activity01";
 import Activity02 from "./Activity02";
 import Activity03 from "./Activity03";
+import XoFunGame from "../games/xofun/XoFunPage";
+import XoFun3dGame from "../games/xofun/XoFun3dPage";
 import Blog from "./Blog";
 import BlogDetails from "./BlogDetails";
 import HelpCenter from "./HelpCenter";
@@ -51,6 +53,8 @@ const routes = [
   { path: '/activity-01', component: <Activity01 />},
   { path: '/activity-02', component: <Activity02 />},
   { path: '/activity-03', component: <Activity03 />},
+  { path: '/XoFunGame', component: <XoFunGame />},
+  { path: '/XoFun3dGame', component: <XoFun3dGame />},
   { path: '/blog', component: <Blog />},
   { path: '/blog-details', component: <BlogDetails />},
   { path: '/help-center', component: <HelpCenter />},

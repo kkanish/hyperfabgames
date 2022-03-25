@@ -9,14 +9,14 @@ const heroSliderData = [
     {
         title_1: "Discover, and collect",
         title_2: "extraordinary",
-        title_3: "Monster NFTs",
-        description: "Marketplace for monster character cllections non fungible token NFTs",
+        title_3: "XO 3D Games ",
+        description: "New",
         class:'center'
     },
     {
         title_1: "Discover, and collect",
         title_2: "extraordinary",
-        title_3: "Monster NFTs",
+        title_3: "Monster NFTs1",
         description: "Marketplace for monster character cllections non fungible token NFTs",
         img: img1,
         imgbg: imgbg1,
@@ -25,7 +25,7 @@ const heroSliderData = [
     {
         title_1: "Discover, and collect",
         title_2: "extraordinary",
-        title_3: "Monster NFTs",
+        title_3: "Monster NFTs2",
         description: "Marketplace for monster character cllections non fungible token NFTs",
         img: img2,
         imgbg: imgbg2,
